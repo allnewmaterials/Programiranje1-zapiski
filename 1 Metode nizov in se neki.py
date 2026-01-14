@@ -1,4 +1,5 @@
 for vrstica in open(path):
+    #METODE NIZOV:
     x, y, z = vrstica.split(",") # splitta po vejici
     #(default po presledku). vrne samo stringe, zato 
     # moras po potrebi narediti int() ali float()
@@ -9,4 +10,6 @@ for vrstica in open(path):
     vrstica.replace("asd", "sda") # zamenja vse podnize "asd" z nizi "sda"
     vrstica.startswith("a") # preveri ce se zacne na podan niz (vrne true ali false)
     vrstica.endswith("a") #kj misls
+
+
 

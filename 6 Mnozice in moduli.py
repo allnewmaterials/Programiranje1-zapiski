@@ -4,6 +4,8 @@ from math import sin, cos, radians, pi
 #pi, sin(x), radians(x),...
 from math import *
 #uvozis vse funkcije, tega rajs ne delat
+import numpy as np
+#uvozis cel modul, ampak moras potem delati np.metoda()
 
 #MATH MODUL
 #inf

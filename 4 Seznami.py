@@ -33,7 +33,7 @@ for dan, temp in enumerate(temperature):
 #recimo datoteko, slovar, niz... enumerate vrača pare
 #(zaporedna številka, element)
 
-#INDEKSIRANJE
+#INDEKSIRANJE (TO DELUJE TUDI ZA STRINGE!!!)
 seznam[4] # Steje od 0, indeks 4 je peti element
 # POMEMBNO: len() vrne stevilko, ki je za 1 vecja od indeksa zadnjega elementa
 seznam[-1] # zadnji indeks
